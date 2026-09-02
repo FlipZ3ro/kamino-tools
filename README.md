@@ -155,13 +155,28 @@ Jika langkah mana pun gagal, seluruh perubahan state transaksi dibatalkan secara
 - RPC Solana Mainnet yang dapat diandalkan.
 - Strategy instruction yang sudah diverifikasi untuk penggunaan nyata.
 
+Clone repository dengan GitHub CLI:
+
 ```bash
-cd ~/Projects/FLallChain/kamino-tools
+gh repo clone FlipZ3ro/kamino-tools
+cd kamino-tools
 npm install
 cp .env.example .env
 npm run build
 npm test
 ```
+
+Jika source sudah tersedia secara lokal, lewati langkah clone dan masuk ke folder project:
+
+```bash
+cd /path/to/kamino-tools
+npm install
+cp .env.example .env
+npm run build
+npm test
+```
+
+> 💡 Jalankan `cp .env.example .env` hanya saat membuat konfigurasi pertama kali. Jangan jalankan ulang bila `.env` sudah berisi private key atau RPC milikmu karena file tersebut akan tertimpa.
 
 ## 🔐 Konfigurasi `.env`
 
