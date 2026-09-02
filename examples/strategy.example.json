@@ -1,0 +1,11 @@
+{
+  "name": "replace-with-an-atomic-strategy",
+  "preInstructions": [],
+  "instructions": [
+    {
+      "programAddress": "MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr",
+      "accounts": [],
+      "dataBase64": "a2FtaW5vLXRvb2xz"
+    }
+  ]
+}
